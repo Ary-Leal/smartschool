@@ -26,6 +26,8 @@ export class AlunosComponent implements OnInit {
 
 
   ngOnInit(): void {
+
+   
   }
 
 }

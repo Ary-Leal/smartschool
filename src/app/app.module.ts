@@ -7,14 +7,16 @@ import { AlunosComponent } from './alunos/alunos.component';
 import { ProfessoresComponent } from './professores/professores.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NaveComponent } from './nave/nave.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     AlunosComponent,
       ProfessoresComponent,
       PerfilComponent,
-      DashboardComponent
+      DashboardComponent,
+      NaveComponent
    ],
   imports: [
     BrowserModule,

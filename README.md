@@ -63,8 +63,43 @@ Segurança é o coração do **SmartSchool**:
 ### 1. Variáveis de Ambiente
 Crie um arquivo `.env` em `server/` com:  
 ```env
-MONGODB_URI=seus_dados_de_conexao_mongo
-PORT=5000
-JWT_SECRET=seu_super_segredo_aqui
+
+2. Inicialização
+
+Backend (API)
+
+cd server
+npm install
+npm run dev
+# API rodando em http://localhost:5000
+
+
+Frontend (Client)
+
+cd client
+npm install
+npm start
+# UI rodando em http://localhost:3000
+🔜 Evolução da Plataforma
+
+✨ Próximas Features:
+
+UI/UX aprimorada com TailwindCSS / Material-UI.
+
+Paginação e Filtros Avançados para grandes volumes de dados.
+
+AuthContext no React: gerenciamento global de usuário e token.
+
+🤝 Contribuição
+
+Quer ajudar a transformar escolas em SmartSchools?
+Contribua com código, ideias e feedbacks! 🚀
+
+📢 Nota Final
+
+O SmartSchool nasceu para unir Educação + Segurança + Tecnologia, criando uma experiência confiável tanto para professores quanto para alunos.
+
+🔐 Porque segurança na educação não é opção, é necessidade.
+
 
 
